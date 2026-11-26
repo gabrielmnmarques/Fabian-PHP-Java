@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-import java.util.Date;
-
+import java.sql.Date;
 
 public class engenheiro {
+    
     private int idEngenheiro;
     private String dsNome;
-    private String nrCREA;
+    private String  nrCREA;
     private Date dtAdmissao;
 
     public int getIdEngenheiro() {
@@ -46,5 +42,5 @@ public class engenheiro {
     }
     
     
+    
 }
-

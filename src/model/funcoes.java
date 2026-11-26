@@ -1,16 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-/**
- *
- * @author gabriel.marques
- */
+
 public class funcoes {
-    private int idFuncao;
-    private String dsFuncao;
+    
+   private int idFuncao;
+   private String dsFuncao;
 
     public int getIdFuncao() {
         return idFuncao;
@@ -27,6 +21,7 @@ public class funcoes {
     public void setDsFuncao(String dsFuncao) {
         this.dsFuncao = dsFuncao;
     }
-    
+   
+   
     
 }

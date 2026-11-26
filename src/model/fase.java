@@ -1,16 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-/**
- *
- * @author gabriel.marques
- */
 public class fase {
-    private int idFase;
-    private String dsFase;
+    
+   private int idFase;
+   private String dsFase;
 
     public int getIdFase() {
         return idFase;
@@ -27,6 +20,5 @@ public class fase {
     public void setDsFase(String dsFase) {
         this.dsFase = dsFase;
     }
-    
     
 }

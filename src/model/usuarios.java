@@ -1,17 +1,54 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package model;
 
-/**
- *
- * @author gabriel.marques
- */
 public class usuarios {
+    
     private int idUsuario;
     private String Nome;
     private String Email;
     private String Senha;
-    private int flStatus;
+    private char flStatus;
+
+    public int getIdUsuario() {
+        return idUsuario;
+    }
+
+    public void setIdUsuario(int idUsuario) {
+        this.idUsuario = idUsuario;
+    }
+
+    public String getNome() {
+        return Nome;
+    }
+
+    public void setNome(String Nome) {
+        this.Nome = Nome;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String Email) {
+        this.Email = Email;
+    }
+
+    public String getSenha() {
+        return Senha;
+    }
+
+    public void setSenha(String Senha) {
+        this.Senha = Senha;
+    }
+
+    public char getFlStatus() {
+        return flStatus;
+    }
+
+    public void setFlStatus(char flStatus) {
+        this.flStatus = flStatus;
+    }
+    
+    
+    
 }

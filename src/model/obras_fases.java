@@ -1,19 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-import java.util.Date;
+import java.sql.Date;
 
-/**
- *
- * @author gabriel.marques
- */
 public class obras_fases {
+
     private int idObra;
     private int idFase;
-    private Date dtIniciofase;
+    private Date dtInicioFase;
     private Date dtTerminoFase;
 
     public int getIdObra() {
@@ -32,12 +25,12 @@ public class obras_fases {
         this.idFase = idFase;
     }
 
-    public Date getDtIniciofase() {
-        return dtIniciofase;
+    public Date getDtInicioFase() {
+        return dtInicioFase;
     }
 
-    public void setDtIniciofase(Date dtIniciofase) {
-        this.dtIniciofase = dtIniciofase;
+    public void setDtInicioFase(Date dtInicioFase) {
+        this.dtInicioFase = dtInicioFase;
     }
 
     public Date getDtTerminoFase() {
@@ -47,6 +40,4 @@ public class obras_fases {
     public void setDtTerminoFase(Date dtTerminoFase) {
         this.dtTerminoFase = dtTerminoFase;
     }
-
-    
 }

@@ -1,22 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package model;
 
-import java.util.Date;
+import java.sql.Date;
 
-/**
- *
- * @author gabriel.marques
- */
 public class orcamentos_obras {
+
     private int idOrcamento;
     private int idObra;
     private Date dtInicio;
     private Date dtFim;
-    private String vlPrevisto;
-    private String vlRealizado;
+    private double vlPrevisto;
+    private double vlRealizado;
 
     public int getIdOrcamento() {
         return idOrcamento;
@@ -50,21 +43,19 @@ public class orcamentos_obras {
         this.dtFim = dtFim;
     }
 
-    public String getVlPrevisto() {
+    public double getVlPrevisto() {
         return vlPrevisto;
     }
 
-    public void setVlPrevisto(String vlPrevisto) {
+    public void setVlPrevisto(double vlPrevisto) {
         this.vlPrevisto = vlPrevisto;
     }
 
-    public String getVlRealizado() {
+    public double getVlRealizado() {
         return vlRealizado;
     }
 
-    public void setVlRealizado(String vlRealizado) {
+    public void setVlRealizado(double vlRealizado) {
         this.vlRealizado = vlRealizado;
     }
-    
-    
 }
